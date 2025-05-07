@@ -18,3 +18,4 @@ accelerate
 transformers_stream_generator
 tiktoken
 faiss-cpu
+ipywidgets

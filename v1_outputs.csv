@@ -1,0 +1,43 @@
+Input,Routed To,Output
+My name is Alice,CHAT,"Nice to meet you, Alice. Is there something I can help you with or would you like to chat?"
+I am from New York,CHAT,You are from New York.
+I love hiking,CHAT,You enjoy hiking.
+Calculate 5+7,CALC,12
+Tell me a joke,CHAT,"Why couldn't the bicycle stand up by itself?
+
+(Wait for it...)
+
+Because it was two-tired!"
+I am allergic to peanuts,CHAT,That's unfortunate. Are you careful about reading labels when eating out or buying food?
+Translate hola to en,TRANSLATOR,hello
+What do you know about me?,CHAT,"I don't know much about you. I have a limited amount of information about you, which was provided in two facts: 
+
+* Your name isn't mentioned.
+* You're from New York.
+* You enjoy hiking is not your statement, it was from Alice's information, I don't have any information about you."
+I work as a software engineer,CHAT,That's great! What do you like to do in your free time?
+I enjoy cooking Italian food,CHAT,That's a great hobby. Have you tried cooking any Italian dishes that you particularly enjoy?
+What is my name?,RECALL,Alice
+What is my job?,RECALL,a software engineer
+What are my dietary restrictions?,RECALL,peanuts
+Analyze sentiment: I am feeling great today,SENTIMENT,"Here is the sentiment analysis in JSON format:
+
+```json
+{
+  ""label"": ""positive"",
+  ""score"": 0.9
+}
+"
+Give me a summary of all the previous questions.,SUMMARIZE,"This conversation involves a series of interactions between a user and a conversational AI. Here's a summary:
+
+1. The user calculates 5+7 and gets 12.
+2. The AI shares a joke about a bicycle being ""two-tired"".
+3. The user mentions being allergic to peanuts and asks about being careful with food labels.
+4. The AI translates ""hola"" to ""hello"".
+5. The AI responds that it doesn't know much about the user, only that they work as a software engineer.
+6. The user shares their interest in cooking Italian food.
+7."
+I play guitar in my free time,CHAT,"That's great, Alice! What kind of music do you enjoy playing?"
+What am I allergic to?,RECALL,peanuts
+What do you remember about me?,RECALL,"There is no conversation to summarize. The provided text appears to be a series of statements, but there is no interaction or conversation to analyze.
+Known facts: Name: Alice, I love hiking, Allergy: peanuts, Occupation: a software engineer"

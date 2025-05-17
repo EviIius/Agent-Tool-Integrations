@@ -11,7 +11,7 @@ deep-translator
 openai
 wikipedia
 pandas
-numpy
+numpy==1.26.4
 nltk
 transformers
 accelerate
